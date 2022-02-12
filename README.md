@@ -1,6 +1,6 @@
 # Deno test
 
-- install deno
+- install [deno](https://deno.land/manual/getting_started/installation)
 
 Using Shell (macOS and Linux):
 
