@@ -1,2 +1,21 @@
-# deno-example
-Just an example of typescript app using Deno :)
+# Deno test
+
+- install deno
+
+Using Shell (macOS and Linux):
+
+```
+curl -fsSL https://deno.land/x/install/install.sh | sh
+```
+
+Using PowerShell (Windows):
+
+```
+iwr https://deno.land/x/install/install.ps1 -useb | iex
+```
+
+- install [denoX](https://morioh.com/p/8a9748e3e227) 
+
+```
+deno install -Af -n denox https://denopkg.com/BentoumiTech/denox/denox.ts
+```
