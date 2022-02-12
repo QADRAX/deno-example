@@ -1,4 +1,6 @@
-# Deno test
+# Deno app
+
+## Setup
 
 - install [deno](https://deno.land/manual/getting_started/installation)
 
@@ -14,8 +16,15 @@ Using PowerShell (Windows):
 iwr https://deno.land/x/install/install.ps1 -useb | iex
 ```
 
-- install [denoX](https://morioh.com/p/8a9748e3e227) 
+- install [velociraptor](https://velociraptor.run/docs/installation/) 
 
 ```
-deno install -Af -n denox https://denopkg.com/BentoumiTech/denox/denox.ts
+deno install -qAn vr https://deno.land/x/velociraptor@1.4.0/cli.ts
+```
+
+## Run
+
+```
+vr run start
+vr run serve
 ```
